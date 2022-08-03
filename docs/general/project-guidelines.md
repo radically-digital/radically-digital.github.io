@@ -48,7 +48,7 @@ There are a set of rules to keep in mind:
 
   > You are about to add your code to a stable branch. If your feature-branch tests fail, there is a high chance that your destination branch build will fail too. Additionally, you need to apply code style check before making a Pull Request. It aids readability and reduces the chance of formatting fixes being mingled in with actual changes.
 
-- Use [this](./.gitignore) `.gitignore` file.
+- Use [this](https://raw.githubusercontent.com/elsewhencode/project-guidelines/master/.gitignore) `.gitignore` file.
 
   _Why:_
 
@@ -169,7 +169,7 @@ Having a good guideline for creating commits and sticking to it makes working wi
 
 ![Documentation](https://github.com/elsewhencode/project-guidelines/blob/master/images/documentation.png?raw=true)
 
-- Use this [template](/docs/general/sample-readme/README.md) for `README.md`, Feel free to add uncovered sections.
+- Use this [template](/docs/general/sample-readme/) for `README.md`, Feel free to add uncovered sections.
 - For projects with more than one repository, provide links to them in their respective `README.md` files.
 - Keep `README.md` updated as a project evolves.
 - Comment your code. Try to make it as clear as possible what you are intending with each major section.
@@ -201,7 +201,7 @@ Having a good guideline for creating commits and sticking to it makes working wi
   > `.env` files to store your variables and add them to `.gitignore` to be excluded. Instead, commit a `.env.example` which serves as a guide for developers. For production, you should still set your environment variables in the standard way.
   > [read more](https://medium.com/@rafaelvidaurre/managing-environment-variables-in-node-js-2cb45a55195f)
 
-- It’s recommended to validate environment variables before your app starts. [Look at this sample](./configWithTest.sample.js) using `joi` to validate provided values.
+- It’s recommended to validate environment variables before your app starts. [Look at this sample](https://raw.githubusercontent.com/elsewhencode/project-guidelines/master/configWithTest.sample.js) using `joi` to validate provided values.
   _Why:_
   > It may save others from hours of troubleshooting.
 
@@ -784,7 +784,7 @@ These are some basic security best practices:
 
 ### 9.3 API documentation
 
-- Fill the `API Reference` section in [README.md template](/docs/general/sample-readme/README.md) for API.
+- Fill the `API Reference` section in [README.md template](/docs/general/sample-readme/) for API.
 - Describe API authentication methods with a code sample.
 - Explaining The URL Structure (path only, no root URL) including The request type (Method).
 
