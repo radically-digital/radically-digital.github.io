@@ -1,3 +1,3 @@
-# Understand where your data exists
+# Understand where your data exists
 
 <!-- TODO STATE? -->

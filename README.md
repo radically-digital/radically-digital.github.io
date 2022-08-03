@@ -1,20 +1,27 @@
 # Engineering Standards
 
-## Uses
+## Uses
 
 - [Docusaurus 2](https://docusaurus.io/)
 
 ## Development
 
+Requires:
+
+- [asdf](https://asdf-vm.com)
+
 ```sh
+asdf plugin add nodejs
 asdf install
 
+# Install dependencies
 npm install
 
+# Start dev server
 npm run start
 ```
 
-## Adding Blogs back
+## Adding Blogs back
 
 By default, docusaurus has a blog capability. To add it back:
 

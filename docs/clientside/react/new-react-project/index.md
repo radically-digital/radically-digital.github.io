@@ -4,7 +4,7 @@
 
 You're going to be creating proptypes either way, so you may as well get some typesafety included.
 
-## Selection Process - React Frameworks and Libraries
+## Selection Process - React Frameworks and Libraries
 
 | **Feature**  | [CRA] | [Parcel] | [Vite] | [Next.js] | [Gatsby] | [Remix] | [Isles] | [Astro.js] |
 | ------------ | :---: | :------: | :----: | :-------: | :------: | :-----: | :-----: | :--------: |
