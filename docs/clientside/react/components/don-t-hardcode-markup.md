@@ -1,7 +1,7 @@
 # Don't Hardcode Markup
 
 - [Google Javascript naming conventions](https://google.github.io/styleguide/jsguide.html#naming)
-- [Clean Code Typescript](/2022-07-29-10-59-clean-code-typescript)
+- [Clean Code Typescript](https://ohmybuck.com/2022-07-29-10-59-clean-code-typescript)
 
 Don’t hardcode markup for navigation, filters or lists. Use a configuration object and loop through the items instead.
 
