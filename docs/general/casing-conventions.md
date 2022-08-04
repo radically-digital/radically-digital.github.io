@@ -2,6 +2,38 @@
 
 Adapted from [Google Javascript naming conventions](https://google.github.io/styleguide/jsguide.html#naming);
 
+## Definitions
+
+| Case                             | Example file | Example Variable |
+| -------------------------------- | ------------ | ---------------- |
+| camelCase                        | fileName.ts  | myVariable       |
+| PascalCase or UpperCamelCase     | FileName.ts  | MyVariable       |
+| kebab-case                       | file-name.ts | my-variable      |
+| snake_case                       | file_name.ts | my_variable      |
+| CONTANT_CASE or UPPER_SNAKE_CASE | FILE_NAME.ts | MY_VARIABLE      |
+
+## Filenames
+
+Make file and directory names `kebab-case`. Use hyphens, not underscores, to separate words—for example, query-data.html. Use only standard ASCII alphanumeric characters in file and directory names.
+
+### Exceptions for consistency
+
+If you're adding to a directory where everything else already uses underscores, and it's not feasible to change everything to hyphens, it's okay to use underscores to stay consistent.
+
+> For example, if the directory already has `lesson_1.jd`, `lesson_2.jd`, and `lesson_3.jd`, it's okay to add your new file as `lesson_4.jd` instead of `lesson-4.jd`. However, in all other situations, use hyphens.
+
+Recommended: avoiding-cliches.js
+Sometimes OK: avoiding_cliches.js
+Not recommended: avoidingcliches.js
+Not recommended: avoidingCliches.js
+Not recommended: avoiding-clichés.js
+
+Avoid pascal case for file names as some Operation Systems ignore capitalization. `FileName.js` would be the equivalent of `fileName.js`, `filename.js` or any variation `FileNAMe.js`
+
+### Other exceptions
+
+It's okay to have some inconsistency in filenames if it can't otherwise be avoided. For example, sometimes tools that generate reference documentation produce filenames based on different style requirements or based on the design and naming conventions of the product or API itself. In those cases, it's okay to make exceptions for those files.
+
 ## Package names
 
 Package names are all `lowerCamelCase`
