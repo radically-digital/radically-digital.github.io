@@ -16,6 +16,9 @@ jobs:
           node-version: 18
       - run: npm ci
       - run: npm run build
+      - run: |
+          echo "engineering.radically.digital" >> build/CNAME
+          echo "User-agent: *\n  Disallow: /" >> build/robots.txt
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
