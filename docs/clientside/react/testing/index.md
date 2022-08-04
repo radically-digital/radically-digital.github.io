@@ -6,18 +6,14 @@ https://kentcdodds.com/blog/write-tests
 
 <!-- TODO TESTING-LIB -->
 
-<!--
-
 ## Testing Strategy
 
-<!-- TODO KENT C DODDS --\>
-<!-- TODO FORGE ARTICLE --\>
+<!-- TODO KENT C DODDS -->
+<!-- TODO FORGE ARTICLE -->
 
 ## Implementing Testing from nothing
 
-<!-- TODO QUICK VITE, TS JEST, BLINKDIFF, NIGHTWATCH --\>
-
--->
+<!-- TODO QUICK VITE, TS JEST, BLINKDIFF, NIGHTWATCH -->
 
 ## Don't Rely on Snapshot Tests
 
