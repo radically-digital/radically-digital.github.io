@@ -16,7 +16,7 @@ const config = {
   favicon: "img/favicon.ico",
   // Github pages deploy
   organizationName: siteConfig.organizationName,
-  projectName: siteConfig.projectName,
+  projectName: siteConfig.repoName,
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
@@ -29,7 +29,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: `https://github.com/${siteConfig.organizationName}/${siteConfig.projectName}/tree/main/docs/`,
+          editUrl: `https://github.com/${siteConfig.organizationName}/${siteConfig.repoName}/tree/main/docs/`,
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -45,7 +45,7 @@ const config = {
         title: siteConfig.title,
         logo: {
           alt: "",
-          src: "img/logo.svg",
+          src: "img/52048808.jpeg",
         },
         items: [
           {
@@ -55,7 +55,7 @@ const config = {
             label: "Standards",
           },
           {
-            href: `https://github.com/${siteConfig.organizationName}/${siteConfig.projectName}`,
+            href: `https://github.com/${siteConfig.organizationName}/${siteConfig.repoName}`,
             label: "GitHub",
             position: "right",
           },
@@ -69,7 +69,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: `https://github.com/${siteConfig.organizationName}/${siteConfig.projectName}`,
+                href: `https://github.com/${siteConfig.organizationName}/${siteConfig.repoName}`,
               },
             ],
           },
