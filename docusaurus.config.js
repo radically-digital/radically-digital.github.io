@@ -76,7 +76,7 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} ${
           siteConfig.title
-        }, Inc. Built with Docusaurus.`,
+        }. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
