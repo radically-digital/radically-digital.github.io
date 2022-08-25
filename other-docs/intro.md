@@ -1,3 +1,0 @@
-# other-docs
-
-## other-docs
