@@ -1,0 +1,24 @@
+# TODO
+
+- [ ] docs/typescript/clean-code.md
+- [ ] docs/general/branching-strategy.md
+- [ ] docs/general/bugs-and-spikes.md
+- [ ] docs/general/cicd.md
+- [ ] docs/general/clean-code.md
+- [ ] docs/general/coding-etiquette.md
+- [ ] docs/general/component-names.md
+- [ ] docs/general/docker-and-docker-compose/
+- [ ] docs/general/documentation.md
+- [ ] docs/general/engineering-culture.md
+- [ ] docs/general/env.md
+- [ ] docs/general/formatting.md
+- [ ] docs/general/git.md
+- [ ] docs/general/legacy-codebases.md
+- [ ] docs/general/linters.md
+- [ ] docs/general/pair-programming.md
+- [ ] docs/general/readmes-and-documentation.md
+- [ ] docs/general/shell-scripting/
+- [ ] docs/general/testing.md
+- [ ] docs/general/what-good-looks-like.md
+- [ ] docs/general/working-together.md
+- [ ] docs/typescript/clean-code-js.md
