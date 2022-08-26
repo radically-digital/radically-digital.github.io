@@ -1,10 +1,10 @@
 # Clean Code
 
-See [Clean Code typescript](/docs/typescript/clean-code)
+See [Clean Code typescript](/docs/standards/typescript/clean-code)
 
 ## Exercise
 
-If you don't already have it clone the RAD Express Boilerplate repository
+If you don't already have it clone the RAD [Express Boilerplate repository](https://github.com/radically-digital/example-express-boilerplate)
 
 ```bash
 git clone git@github.com:radically-digital/example-express-boilerplate.git

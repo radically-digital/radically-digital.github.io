@@ -1,4 +1,4 @@
-# Answer
+# Script: Git Add Commit Push
 
 ```bash
 #! /usr/bin/env zsh

@@ -1,8 +1,16 @@
 # Example docker-compose
 
+<!-- TODO introduction -->
+<!-- TODO notes on docker-compose
+  - .env
+  - env overrides https://github.com/nickjj/build-a-saas-app-with-flask/blob/master/docker-compose.override.example.yml
+  - https://github.com/containrrr/watchtower
+-->
+
 ```yaml
 # Define the version of docker-compose files we want to use
 version: "3.9" # optional since v1.27.0
+
 #Define the services we want to build
 services:
   # Our first service we call: example-express-boilerplate
@@ -19,9 +27,10 @@ services:
     # Mount the local src directory so that we can still make changes to the code while it's running
     volumes:
       - ./src:/usr/src/app
-    # Configure the applicaiton so that if there's an error it always just restarts
+    # Configure the application so that if there's an error it always just restarts - use this sparingly as it will likely leave a running process for months after leaving the project.
     restart: always
-  # The next service is the database
+
+  # database service
   db:
     # define the image
     image: "mysql"

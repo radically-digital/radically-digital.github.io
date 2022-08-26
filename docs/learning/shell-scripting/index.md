@@ -1,6 +1,10 @@
 # Shell Scripting
 
-Shell scripts allow us to program commands in chains and have the system execute them as a scripted event. Scripting also allows you to use programming functions — such as ‘for’ loops, if/then/else statements, and so forth — directly within your operating system’s interface. And, you don’t have to learn another language because you’re using what you already know: [the command-line](/devex/the-command-line).
+<!-- TODO Commandline tutorial -->
+
+Shell scripts allow us to program commands in chains and have the system execute them as a scripted event. Scripting also allows you to use programming functions — such as "for" loops, if/then/else statements, and so forth — directly within your operating system’s interface.
+
+<!-- And, you don’t have to learn another language because you’re using what you already know: [the command-line](/docs/learning/the-command-line). -->
 
 ## Where it's used
 
@@ -11,7 +15,7 @@ Shell scripts allow us to program commands in chains and have the system execute
 
 ## Why it's useful
 
-The biggest advantage of writing a shell script not having to install an interpreter as most systems will have some implementation. Another is that the commands and syntax are exactly the same as those directly entered at [the command-line](/devex/the-command-line). The programmer does not have to switch to a totally different syntax, as they would if the script were written in a different language, or if a compiled language were used.
+The biggest advantage of writing a shell script not having to install an interpreter as most systems will have some implementation. Another is that the commands and syntax are exactly the same as those directly entered at [the command-line](#TODO). The programmer does not have to switch to a totally different syntax, as they would if the script were written in a different language, or if a compiled language were used.
 
 ## Key Concepts
 
@@ -37,32 +41,9 @@ These are the most widely used. It's a good idea to stick to these as they come 
 
 ## Exercise
 
-- Write a script that will git add, commit with a message (as an argument) and push to the current branch when run. [See answer here](answer-1)
+- Write a script that will git add, commit with a message (as an argument) and push to the current branch when run. [See answer here](answer-git-add-commit-push)
 
-- create a quick setup script to get the develop environment up and running for [this repository](https://github.com/radically-digital/tech-assembly)
-
-  ```bash
-  #!/bin/bash
-
-  if [ -z "$(asdf --version 2> /dev/null)" ]; then
-       echo "no asdf found"
-       exit 1
-  fi
-
-  asdf plugin add nodejs
-  asdf install
-
-  if [ -z "$(npm --version 2> /dev/null)" ]; then
-       echo "no npm found"
-       exit 1
-  fi
-
-  # Install dev dependencies
-  npm install
-
-  # Running
-  npm run build && npm run dev
-  ```
+- Create a quick setup script to get the develop environment up and running for [this repository](https://github.com/radically-digital/radically-digital.github.io). [See answer here](answer-quick-setup-repo)
 
 ## Learn more
 
