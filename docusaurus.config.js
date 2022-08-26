@@ -59,8 +59,8 @@ const config = {
           {
             type: "docSidebar",
             position: "left",
-            sidebarId: "radically-digital",
-            label: "RAD",
+            sidebarId: "techniques",
+            label: "Techniques",
           },
           {
             href: `https://github.com/${siteConfig.organizationName}/${siteConfig.repoName}`,
