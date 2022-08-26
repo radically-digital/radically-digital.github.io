@@ -7,8 +7,8 @@
 - [-] docs/learning/intro.md
 - [x] docs/learning/shell-scripting/answer.md
 - [x] docs/learning/shell-scripting/index.md
-- [ ] docs/standards/general/12-factor-app-checklist.md
-- [ ] docs/standards/general/casing-conventions.md
+- [-] docs/standards/general/12-factor-app-checklist.md
+- [x] docs/standards/general/casing-conventions.md
 - [ ] docs/standards/general/env.md
 - [ ] docs/standards/general/formatting.md
 - [ ] docs/standards/general/git.md
