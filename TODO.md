@@ -4,10 +4,10 @@
 - [x] docs/learning/docker-and-docker-compose/example_Dockerfile.md
 - [x] docs/learning/docker-and-docker-compose/example_docker-compose.md
 - [x] docs/learning/docker-and-docker-compose/index.md
-- [-] docs/learning/intro.md
+- [x] docs/learning/intro.md
 - [x] docs/learning/shell-scripting/answer.md
 - [x] docs/learning/shell-scripting/index.md
-- [-] docs/standards/general/12-factor-app-checklist.md
+- [x] docs/standards/general/12-factor-app-checklist.md
 - [x] docs/standards/general/casing-conventions.md
 - [ ] docs/standards/general/env.md
 - [ ] docs/standards/general/formatting.md
