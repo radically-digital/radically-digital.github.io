@@ -63,6 +63,12 @@ const config = {
             label: "Techniques",
           },
           {
+            type: "docSidebar",
+            position: "left",
+            sidebarId: "learning",
+            label: "Learning",
+          },
+          {
             href: `https://github.com/${siteConfig.organizationName}/${siteConfig.repoName}`,
             label: "GitHub",
             position: "right",

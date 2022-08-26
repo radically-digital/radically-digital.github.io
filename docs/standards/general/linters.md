@@ -170,7 +170,3 @@ If you have the ESLint extension installed you can use `CMD+SHIFT+P` to open the
 
 - [Linting on save configuration for VSCode](https://davidwalsh.name/eslint-vscode)
 - [Adding linting to a Husky pre-commit hook with lint-staged](https://medium.com/gits-apps-insight/utilizing-git-hook-by-using-eslint-husky-and-lint-staged-18b6f6f60f1e)
-
-## Discussion?
-
-<!-- To be had in person - link to recordings -->

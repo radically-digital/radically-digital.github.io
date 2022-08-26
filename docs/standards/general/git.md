@@ -77,7 +77,3 @@ _Push_ your changes up to your branch on Github (the Git system we are using). O
 - [Git documentation](https://git-scm.com/)
 - [Learn Git in one hour](https://www.youtube.com/watch?v=8JJ101D3knE)
 - [Advanced Git techniques](https://www.youtube.com/watch?v=TwVuFwyztEE)
-
-## Discussion?
-
-<!-- To be had in person - link to recordings -->
