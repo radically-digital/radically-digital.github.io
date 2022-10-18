@@ -8,7 +8,7 @@ The [twelve-factor app](https://12factor.net/) is a methodology for building sof
 - **Minimize divergence** between development and production, enabling **continuous deployment** for maximum agility;
 - And can **scale up** without significant changes to tooling, architecture, or development practices.
 
-The following is from [Cloudposse - 12 Factor App Checklist](https://cloudposse.com/12-factor-app/)
+The following is from [Cloudposse - 12 Factor App Checklist](https://cloudposse.com/12-factor-app/) which are practical considerations to help determine the 12-factor readiness of an application for deployment. Applications that match the characteristics below will make best use of the High Availability and Scaling features Kubernetes and other cloud providers have to offer. These may not follow the precise official/canonical definitions of the "12-factor" app.
 
 ## [Codebase](https://12factor.net/codebase)
 

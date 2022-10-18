@@ -22,11 +22,11 @@ If you're adding to a directory where everything else already uses underscores, 
 
 > For example, if the directory already has `lesson_1.jd`, `lesson_2.jd`, and `lesson_3.jd`, it's okay to add your new file as `lesson_4.jd` instead of `lesson-4.jd`. However, in all other situations, use hyphens.
 
-Recommended: avoiding-cliches.js
-Sometimes OK: avoiding_cliches.js
-Not recommended: avoidingcliches.js
-Not recommended: avoidingCliches.js
-Not recommended: avoiding-clichés.js
+- Recommended: avoiding-cliches.js
+- Sometimes OK: avoiding_cliches.js
+- Not recommended: avoidingcliches.js
+- Not recommended: avoidingCliches.js
+- Not recommended: avoiding-clichés.js
 
 Avoid pascal case for file names as some Operation Systems ignore capitalization. `FileName.js` would be the equivalent of `fileName.js`, `filename.js` or any variation `FileNAMe.js`
 

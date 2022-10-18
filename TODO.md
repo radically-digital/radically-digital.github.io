@@ -1,0 +1,79 @@
+# TODO
+
+- [x] docs/learning/clean-code.md
+- [x] docs/learning/docker-and-docker-compose/example_Dockerfile.md
+- [x] docs/learning/docker-and-docker-compose/example_docker-compose.md
+- [x] docs/learning/docker-and-docker-compose/index.md
+- [x] docs/learning/intro.md
+- [x] docs/learning/shell-scripting/answer.md
+- [x] docs/learning/shell-scripting/index.md
+- [x] docs/standards/general/12-factor-app-checklist.md
+- [x] docs/standards/general/casing-conventions.md
+- [ ] docs/standards/general/env.md
+- [ ] docs/standards/general/formatting.md
+- [ ] docs/standards/general/git.md
+- [ ] docs/standards/general/linters.md
+- [ ] docs/standards/general/project-guidelines.md
+- [ ] docs/standards/general/readme-documentation.md
+- [ ] docs/standards/general/readme-good.md
+- [ ] docs/standards/general/readmes-and-documentation.md
+- [ ] docs/standards/intro.md
+- [ ] docs/standards/typescript/avoid-typescript-enums.md
+- [ ] docs/standards/typescript/clean-code-js.md
+- [ ] docs/standards/typescript/clean-code.md
+- [ ] docs/techniques/branching-strategy.md
+- [ ] docs/techniques/cicd.md
+- [ ] docs/techniques/component-names.md
+- [ ] docs/techniques/intro.md
+- [ ] docs/techniques/legacy-codebases.md
+- [ ] docs/techniques/setting-up-your-mac.md
+- [ ] docs/techniques/testing.md
+- [ ] docs/techniques/wow/bugs-and-spikes.md
+- [ ] docs/techniques/wow/coding-etiquette.md
+- [ ] docs/techniques/wow/engineering-culture.md
+- [ ] docs/techniques/wow/pair-programming.md
+- [ ] docs/techniques/wow/rfc-process.md
+- [ ] docs/techniques/wow/what-good-looks-like.md
+- [ ] docs/techniques/wow/working-together.md
+
+- [ ] docs/standards/clientside/react/application-structure/button-example.md
+- [ ] docs/standards/clientside/react/application-structure/create-a-common-module.md
+- [ ] docs/standards/clientside/react/application-structure/group-by-route-module.md
+- [ ] docs/standards/clientside/react/application-structure/maintain-a-utility-function-directory.md
+- [ ] docs/standards/clientside/react/application-structure/move-components-in-folders.md
+- [ ] docs/standards/clientside/react/application-structure/wrap-external-components.md
+- [ ] docs/standards/clientside/react/component-mental-models/container-presentational.md
+- [ ] docs/standards/clientside/react/component-mental-models/stateless-stateful.md
+- [ ] docs/standards/clientside/react/components/aha-avoid-hasty-abstractions.md
+- [ ] docs/standards/clientside/react/components/avoid-nested-render-functions.md
+- [ ] docs/standards/clientside/react/components/be-wary-of-using-nested-ternary-operators.md
+- [ ] docs/standards/clientside/react/components/component-length.md
+- [ ] docs/standards/clientside/react/components/conditional-rendering.md
+- [ ] docs/standards/clientside/react/components/destructure-props.md
+- [ ] docs/standards/clientside/react/components/don-t-hardcode-markup.md
+- [ ] docs/standards/clientside/react/components/favor-functional-components.md
+- [ ] docs/standards/clientside/react/components/get-functional-map-and-reduce.md
+- [ ] docs/standards/clientside/react/components/minimise-the-use-of-optional-chaining.md
+- [ ] docs/standards/clientside/react/components/move-lists-in-a-separate-component.md
+- [ ] docs/standards/clientside/react/components/number-of-props.md
+- [ ] docs/standards/clientside/react/components/organize-utility-functions.md
+- [ ] docs/standards/clientside/react/components/pass-objects-instead-of-primitives.md
+- [ ] docs/standards/clientside/react/components/prefer-named-exporting-of-components.md
+- [ ] docs/standards/clientside/react/components/raise-state-up.md
+- [ ] docs/standards/clientside/react/components/understand-where-your-data-exists.md
+- [ ] docs/standards/clientside/react/components/use-error-boundaries.md
+- [ ] docs/standards/clientside/react/components/use-typescript.md
+- [ ] docs/standards/clientside/react/components/write-comments-in-jsx.md
+- [ ] docs/standards/clientside/react/components/write-consistent-components.md
+- [ ] docs/standards/clientside/react/data-fetching/index.md
+- [ ] docs/standards/clientside/react/intro.md
+- [ ] docs/standards/clientside/react/new-react-project/index.md
+- [ ] docs/standards/clientside/react/performance/don-t-optimize-prematurely.md
+- [ ] docs/standards/clientside/react/performance/rerenders-callbacks-arrays-and-objects.md
+- [ ] docs/standards/clientside/react/performance/watch-the-bundle-size.md
+- [ ] docs/standards/clientside/react/state-management/prefer-hooks-to-hocs-and-render-props.md
+- [ ] docs/standards/clientside/react/state-management/state-management-libraries.md
+- [ ] docs/standards/clientside/react/state-management/use-data-fetching-libraries.md
+- [ ] docs/standards/clientside/react/state-management/use-reducers.md
+- [ ] docs/standards/clientside/react/styling/index.md
+- [ ] docs/standards/clientside/react/testing/index.md

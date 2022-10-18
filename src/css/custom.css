@@ -1,24 +1,23 @@
-/* Created with https://hihayk.github.io/scale/#3/3/20/20/-20/20/20/-20/008FD4/0/143/212/white */
+/* Created with https://docusaurus.io/docs/migration/manual#updated-fields */
 :root {
-  --ifm-color-primary-darkest: #473d9b;
-  --ifm-color-primary-darker: #3e3fac;
-  --ifm-color-primary-dark: #3e4dbe;
   --ifm-color-primary: #3e5fd0;
-  --ifm-color-primary-light: #4677d8;
-  --ifm-color-primary-lighter: #4f90df;
-  --ifm-color-primary-lightest: #59a7e5;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary-dark: #3051c3;
+  --ifm-color-primary-darker: #2d4db9;
+  --ifm-color-primary-darkest: #253f98;
+  --ifm-color-primary-light: #5471d5;
+  --ifm-color-primary-lighter: #5f7ad8;
+  --ifm-color-primary-lightest: #7f95e0;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary-darkest: #7744a8;
-  --ifm-color-primary-darker: #7345bb;
-  --ifm-color-primary-dark: #6c45ce;
-  --ifm-color-primary: #6045e2;
-  --ifm-color-primary-light: #564de9;
-  --ifm-color-primary-lighter: #555def;
-  --ifm-color-primary-lightest: #5e76f4;
+  --ifm-color-primary: #00c4d5;
+  --ifm-color-primary-dark: #00b0c0;
+  --ifm-color-primary-darker: #00a7b5;
+  --ifm-color-primary-darkest: #008995;
+  --ifm-color-primary-light: #00d8ea;
+  --ifm-color-primary-lighter: #00e1f5;
+  --ifm-color-primary-lightest: #16ecff;
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }

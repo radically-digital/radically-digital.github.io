@@ -1,14 +1,38 @@
-# Clean Code TypeScript
+# Clean Code
 
-Clean Code concepts adapted for TypeScript.
-Inspired from [clean-code-typescript](https://github.com/labs42io/clean-code-typescript).
+Clean code is one of the most important tools in any good engineer's arsenal. It cannot be understated how important good coding standards are in any project. Whole books have been written about the subject and the topic in general is highly opinionated and often sparks intense debate.
 
-## Introduction
+Coding standards and clean code are used to ensure consistent, readable, easily maintainable and extendable code which adhere to the [SOLID principles](https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design). Without standards code will eventually become difficult to understand and difficult to work with. We will read more code than we will ever write so its imperative that we understand what we are reading.
 
-Software engineering principles, from Robert C. Martin's book
-[_Clean Code_](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882),
-adapted for TypeScript. This is not a style guide. It's a guide to producing
-[readable, reusable, and refactorable](https://github.com/ryanmcdermott/3rs-of-software-architecture) software in TypeScript.
+Codebases are forever evolving. The codebases that adhere to good coding standards will always evolve much more efficiently than the ones with poor standards.
+
+The following guidelines construct a summary of the RAD definition of clean code. It is largely based on the book Clean Code by Robert C. Martin (hereon referred to as Martin) but differs in some important ways. It is highly recommended to read both this outline and Martin's book.
+
+These coding standards are language agnostic but any examples here will be written in Typescript, improving and inspired from [clean-code-typescript](https://github.com/labs42io/clean-code-typescript) that will help in producing [readable, reusable, and refactorable](https://github.com/ryanmcdermott/3rs-of-software-architecture) code.
+
+## The RAD Clean Code Commandments
+
+The following is a set of general rules that we believe every engineer should live by no matter what project they are working in.
+
+### Follow the Scout Rule - leave the code cleaner than when you found it
+
+One of Martin's golden rules is to always leave any code you come across cleaner than when you found it. If you see some code that is messy then tidy it up as best as possible. If you see a variable that is badly named then rename it. You should take all other rules into consideration as part of this rule i.e. try your best to enforce all other RAD clean code rules whenever you come across any existing code. Always use your judgement when following the Boy / Girl Scout Rule. If the changes are complex or will require a large amount of time then do not make the changes. If the changes are important then raise a technical debt ticket in your project management tool to revisit this at a later date.
+
+### Have strong opinions but hold on to them loose
+
+Take all guidelines outlined here with a grain of salt. Ensure you're not working to a completely different set of standards to the rest of your team. If the rest of your team are working to poor standards then work with them to improve. Have strong opinions but hold on to them loose - always be willing to have a discussion around standards and be prepared to shift your opinion on them if another team member makes a compelling argument.
+
+### Be Consistent
+
+If you've agreed a set of standards with your team ensure that these standards are enforced throughout the codebase. Don't drop your standards purely because a deadline needs to be met.
+
+If you're working within a legacy codebase in which the original team is no longer working on it its still important to be consistent. This may mean working to the standards set by the original team. Code should still be kept clean but no major changes should be made that would compromise consistency unless these changes have been explicitly agreed upon by the team.
+
+Will all this in mind its important to remember there's a balance between being consistent and being too perfect.
+
+### Don't be a perfectionist
+
+Perfect is the enemy of good enough. Perfection is a terrible thing to strive for in software engineering. It will hardly ever be achieved and compromises will always have to be made. Writing perfect code takes a huge amount of time. This time could be spent on creating several more features that aren't perfect but are good enough. Standards should be adhered to but should be flexible enough to not take up a huge amount of the engineer's time when writing code. When completing a section of code you should ask yourself "is it good enough and is it clean enough?".
 
 ## Variables
 

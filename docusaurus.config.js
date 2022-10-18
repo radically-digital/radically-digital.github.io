@@ -14,7 +14,7 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  // Github pages deploy
+
   organizationName: siteConfig.organizationName,
   projectName: siteConfig.repoName,
   i18n: {
@@ -29,7 +29,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: `https://github.com/${siteConfig.organizationName}/${siteConfig.repoName}/tree/main/docs/`,
+          editUrl: ({ docPath }) =>
+            `https://github.com/${siteConfig.organizationName}/${siteConfig.repoName}/tree/main/${docPath}`,
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -50,9 +51,22 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "standards/intro",
             position: "left",
+            sidebarId: "standards",
             label: "Standards",
+          },
+          {
+            type: "docSidebar",
+            position: "left",
+            sidebarId: "techniques",
+            label: "Techniques",
+          },
+          {
+            type: "docSidebar",
+            position: "left",
+            sidebarId: "learning",
+            label: "Learning",
           },
           {
             href: `https://github.com/${siteConfig.organizationName}/${siteConfig.repoName}`,
